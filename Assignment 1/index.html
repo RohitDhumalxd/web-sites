@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script></script>
+    <title>First Page</title>
+    <style>
+        .logoname{
+            font-size: 60pt;
+            text-align: center;
+            color: cornflowerblue;
+            
+        }
+        table{
+            margin-left: 8%;
+        }
+        .logo{
+            border: 3px groove royalblue;
+            background-color: lightcyan;
+        }
+        .secname{
+            margin-left: 750px;
+            color: darkcyan;
+            font-size: 45pt;
+        }
+        .Doc{
+            border: 4px solid cyan;
+            background-color: antiquewhite;
+        }
+        footer{
+            text-align: center;
+            font-size:xx-large;
+            background-color: aqua;
+        }
+        .appo{
+            margin-left: 25px;
+            color: darkgreen;
+
+        }
+        .emer{
+            font-size: 30pt;
+            margin-top: -150pt;
+            margin-right: 190pt;
+            color: darkred;
+           float: right;
+        }
+        .reg{
+            font-size: 30pt;
+            margin-top: -130pt;
+            margin-right: 500pt;
+            color: darkred;
+           float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo">
+        <table cellspacing="45">
+            <tr>
+                <td><img src="./Images/logo.png" width="200px" alt="Logo"></td>
+                <td><h1 class="logoname"><em>Kirak Clinic</em></h1></td>
+                <td></td>
+                
+            </tr>
+        </table>
+          <p class="emer">Emergency Call :  <br>  020 40156989</p>
+          <p class="reg"><a href="./Form.html"><b>Registration</b></a></p>
+    </div>
+    <DIV class="Doc">
+        <h1 class="secname">Doctors</h1>
+        <hr>
+
+        <div>
+            <table cellspacing="85">
+                <tr>
+                    <td><table cellspacing="15">
+                        <tr>
+                            <td><img src="./Images/Goku.jfif" alt="Doc Goku" width="350px" style="border: 4px solid red;"></td>
+                            <td><h2>Dr.Son Goku (Goku)</h2>
+                                <h3>MBBS M.D</h3>
+                                <p style="font-size: 15pt;"><a href="./Goku.html"><b>View Profile</b></a></p></td>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+
+                <td>
+                    <table cellspacing="15">
+                        <tr>
+                            <td> <img src="./Images/VEGITA.jfif" alt="Doc Vegita" style="border: 4px solid red;"></td>
+                            <td><h2>Dr.Prince Vegeta (Vegeta)</h2>
+                                <h3>MBBS M.S</h3>
+                                <p style="font-size: 15pt;"><a href="./Vegeta.html"><b>View Profile</b></a></p></td>
+                                
+                        </tr>
+        
+                    </table>
+                </td>
+                
+                <td class="appo">
+                    <p style="font-size: 15pt;">
+                        Select Doctor : 
+                        <input type="text" list="docs">
+                        <datalist id="docs">
+                            <option>Dr.Goku</option>
+                            <option>Dr.Vegeta</option>
+                        </datalist>
+                    </p>
+                    <button type="submit">Submit</button> 
+                    <button type="reset">Reset</button> 
+
+                    <h2>Book Appointment</h2></td>
+                </tr>
+            </table>
+       
+        </div>
+    </DIV>
+
+    <footer><p><em>Copyright ©2022 Kirak_Clinic</em></p></footer>
+</body>
+</html>
